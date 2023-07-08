@@ -9,6 +9,8 @@ var checkLine = document.querySelector(".checkLine");
 var totalScore = 0;
 var scoreRec = document.getElementById('scoreRecord');
 var backBtn = document.getElementById('backBtn');
+var clearBtn = document.getElementById('clearBtn');
+
 var questions = [
   {
     question: "Question 1: What event happens when a user clicks an HTML element?",
@@ -88,7 +90,6 @@ function gameOver() {
 function refresh () {
   window.location.reload()
 }
-
 
 
 backBtn.addEventListener("click", refresh);
